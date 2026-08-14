@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "catalog": {
     "name": "mishanaer/icons",
     "variant": "round/line",
@@ -12,12 +12,72 @@
     ],
     "nominal_stroke_width": 2
   },
-  "source": {
+  "provenance": {
+    "generated_at": "2026-08-14T11:05:55+00:00",
+    "generator": {
+      "path": "work/analyze_icon_style.py",
+      "version": "2.0.0",
+      "sha256": "cf53642e6eb720eca6591b8f24e1563238a01e1cbb6b15f80214232019ef68bf",
+      "python": "3.9.6",
+      "dependencies": {
+        "numpy": "2.0.2",
+        "Pillow": "11.3.0",
+        "svgpathtools": "1.7.2"
+      }
+    },
+    "source_inventory": {
+      "path": "outputs/amicons_icons.csv",
+      "sha256": "404dd21ca5f5b43140dd331c4c3fbd1c7163646904e394f9bd77b384cbc3c66b",
+      "icon_count": 760,
+      "ordered_icon_names_sha256": "04f217a765043ea72ce81e2eac7bd23db5f0737b0da2fee1280edb3c1e1f3c5b"
+    },
+    "sources": {
+      "exact_expanded_svg": {
+        "path": "sources/svg-exact/round/line",
+        "file_count": 760,
+        "sha256": "2b31a602dfeefda91144c93ef791057b3bdbf3fd3becdb1bdc22b7aec3685914"
+      },
+      "exact_raster_render": {
+        "path": "work/exact-round-line-384",
+        "file_count": 760,
+        "sha256": "550cb8bf423e3253c22418dd6c3c2fd502c08b4aed67ddf7b0219a6b26a23846"
+      },
+      "recovered_svg": {
+        "path": "icons/all-m3-final/svg",
+        "file_count": 760,
+        "sha256": "fddddb2b40cf55d824da26541f8b6e849ace74b4332f7a29e911c9738193c7c3"
+      },
+      "stroke_validation": {
+        "path": "outputs/stroke-validation.json",
+        "sha256": "750154d34da5a70d785c763ee405623a71d14dcf1ad0eb77ccbac03694c7c353"
+      }
+    },
+    "renderer": {
+      "artifact_path": "work/exact-round-line-384",
+      "render_size_px": [
+        384,
+        384
+      ],
+      "view_box": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "pixels_per_viewbox_unit": 16.0,
+      "alpha_threshold": 128,
+      "alpha_threshold_normalized": 0.501961,
+      "bounds_method": "axis-aligned bounds of pixels whose alpha is >= threshold",
+      "centroid_method": "alpha-weighted centroid of all pixel centers"
+    }
+  },
+  "source_structure_all_exact_icons": {
     "icon_count": 760,
     "viewboxes": {
       "0 0 24 24": 760
     },
     "expanded_path_elements_per_icon": {
+      "count": 760,
       "min": 1,
       "p10": 1.0,
       "median": 1.0,
@@ -26,6 +86,7 @@
       "max": 1
     },
     "expanded_subpaths_per_icon": {
+      "count": 760,
       "min": 1,
       "p10": 2.0,
       "median": 3.0,
@@ -35,8 +96,9 @@
     },
     "icons_using_clip_or_mask": 32
   },
-  "visual_bounds_from_exact_384px_renders": {
+  "visual_metrics_all_exact_icons": {
     "left": {
+      "count": 760,
       "min": 0.0,
       "p10": 0.625,
       "median": 1.656,
@@ -45,6 +107,7 @@
       "max": 10.5
     },
     "top": {
+      "count": 760,
       "min": 0.0,
       "p10": 1.0,
       "median": 2.0,
@@ -53,6 +116,7 @@
       "max": 11.0
     },
     "right": {
+      "count": 760,
       "min": 13.0,
       "p10": 21.0,
       "median": 22.094,
@@ -61,6 +125,7 @@
       "max": 24.0
     },
     "bottom": {
+      "count": 760,
       "min": 13.0,
       "p10": 20.781,
       "median": 22.0,
@@ -69,6 +134,7 @@
       "max": 24.0
     },
     "width": {
+      "count": 760,
       "min": 3.0,
       "p10": 18.0,
       "median": 20.562,
@@ -77,6 +143,7 @@
       "max": 24.0
     },
     "height": {
+      "count": 760,
       "min": 2.0,
       "p10": 17.45,
       "median": 20.438,
@@ -85,6 +152,7 @@
       "max": 24.0
     },
     "margin_left": {
+      "count": 760,
       "min": 0.0,
       "p10": 0.625,
       "median": 1.656,
@@ -93,6 +161,7 @@
       "max": 10.5
     },
     "margin_top": {
+      "count": 760,
       "min": 0.0,
       "p10": 1.0,
       "median": 2.0,
@@ -101,6 +170,7 @@
       "max": 11.0
     },
     "margin_right": {
+      "count": 760,
       "min": 0.0,
       "p10": 0.5,
       "median": 1.906,
@@ -109,6 +179,7 @@
       "max": 11.0
     },
     "margin_bottom": {
+      "count": 760,
       "min": 0.0,
       "p10": 1.0,
       "median": 2.0,
@@ -116,7 +187,8 @@
       "p90": 3.219,
       "max": 11.0
     },
-    "center_offset_x": {
+    "bbox_center_offset_x": {
+      "count": 760,
       "min": -5.188,
       "p10": 0.0,
       "median": 0.0,
@@ -124,7 +196,8 @@
       "p90": 0.0,
       "max": 1.5
     },
-    "center_offset_y": {
+    "bbox_center_offset_y": {
+      "count": 760,
       "min": -1.0,
       "p10": -0.25,
       "median": 0.0,
@@ -132,7 +205,26 @@
       "p90": 0.159,
       "max": 1.156
     },
-    "coverage": {
+    "alpha_centroid_offset_x": {
+      "count": 760,
+      "min": -4.116,
+      "p10": -0.456,
+      "median": -0.0,
+      "mean": -0.022,
+      "p90": 0.417,
+      "max": 2.78
+    },
+    "alpha_centroid_offset_y": {
+      "count": 760,
+      "min": -3.911,
+      "p10": -0.679,
+      "median": -0.0,
+      "mean": 0.056,
+      "p90": 1.017,
+      "max": 3.875
+    },
+    "threshold_coverage": {
+      "count": 760,
       "min": 0.054,
       "p10": 0.177,
       "median": 0.262,
@@ -140,7 +232,19 @@
       "p90": 0.341,
       "max": 0.447
     },
+    "alpha_coverage": {
+      "count": 760,
+      "min": 0.054,
+      "p10": 0.178,
+      "median": 0.262,
+      "mean": 0.261,
+      "p90": 0.341,
+      "max": 0.447
+    },
+    "analyzed_icon_count": 760,
+    "measurement_scope": "all exact source renders",
     "minimum_side_margin": {
+      "count": 760,
       "min": 0.0,
       "p10": 0.5,
       "median": 1.0,
@@ -149,6 +253,7 @@
       "max": 6.0
     },
     "bbox_center_distance_from_12_12": {
+      "count": 760,
       "min": 0.0,
       "p10": 0.0,
       "median": 0.0,
@@ -156,268 +261,538 @@
       "p90": 0.5,
       "max": 5.189
     },
-    "icons_centered_within_0_5": 0.9197,
+    "alpha_centroid_distance_from_12_12": {
+      "count": 760,
+      "min": 0.0,
+      "p10": 0.001,
+      "median": 0.378,
+      "mean": 0.651,
+      "p90": 1.625,
+      "max": 4.143
+    },
+    "icons_with_bbox_center_within_0_5": 0.9197,
+    "icons_with_alpha_centroid_within_0_5": 0.5618,
     "icons_touching_outer_1_unit": 0.5671,
-    "icons_inside_2_unit_safe_area": 0.2632
+    "icons_inside_2_unit_safe_area": 0.2632,
+    "center_metric_note": "bbox center and alpha-weighted centroid are descriptive geometric metrics; neither is labeled as an optical center"
   },
-  "recoverable_stroke_geometry": {
-    "analyzed_icon_count": 207,
-    "classification_scope": [
-      "true_stroke",
-      "mixed",
-      "filled_primitives"
-    ],
-    "drawable_elements": {
-      "line": 272,
-      "circle": 134,
-      "path": 118,
-      "rect": 80,
-      "polyline": 38,
-      "polygon": 7,
-      "ellipse": 4
-    },
-    "semantic_segments": {
-      "line": 701,
-      "circle": 134,
-      "arc": 86,
-      "cubic": 85,
-      "rounded_rect": 80,
-      "ellipse": 4
-    },
-    "drawables_per_icon": {
-      "min": 1,
-      "p10": 1.0,
-      "median": 3.0,
-      "mean": 3.155,
-      "p90": 6.0,
-      "max": 12
-    },
-    "segments_per_icon": {
-      "min": 1,
-      "p10": 2.0,
-      "median": 4.0,
-      "mean": 5.266,
-      "p90": 10.4,
-      "max": 20
-    },
-    "cubics_per_icon": {
-      "min": 0,
-      "p10": 0.0,
-      "median": 0.0,
-      "mean": 0.411,
-      "p90": 0.4,
-      "max": 11
-    },
-    "stroke_widths_by_drawable": {
-      "2.0": 566
-    },
-    "linecaps_by_drawable": {
-      "round": 566
-    },
-    "linejoins_by_drawable": {
-      "round": 566
-    },
-    "filled_primitives": {
-      "circle": 83,
-      "path": 2,
-      "ellipse": 2
-    },
-    "on_curve_coordinate_grid_share": {
-      "integer": 0.5382,
-      "half_unit": 0.7043,
-      "quarter_unit": 0.7275,
-      "tolerance": 0.02
-    },
-    "common_on_curve_coordinates": [
-      [
-        12.0,
-        293
-      ],
-      [
-        21.0,
-        202
-      ],
-      [
-        3.0,
-        195
-      ],
-      [
-        7.0,
-        57
-      ],
-      [
-        17.0,
-        56
-      ],
-      [
-        22.0,
-        48
-      ],
-      [
-        16.0,
-        48
-      ],
-      [
-        16.5,
-        45
-      ],
-      [
-        20.0,
-        38
-      ],
-      [
-        2.0,
-        35
-      ],
-      [
-        4.5,
-        34
-      ],
-      [
-        7.5,
-        33
-      ],
-      [
-        9.0,
-        33
-      ],
-      [
-        4.0,
-        32
-      ],
-      [
-        19.5,
-        31
-      ],
-      [
-        8.0,
-        28
-      ],
-      [
-        9.5,
-        27
-      ],
-      [
-        10.0,
-        26
-      ],
-      [
-        14.0,
-        26
-      ],
-      [
-        15.0,
-        25
-      ],
-      [
-        19.0,
-        24
-      ],
-      [
-        15.5,
-        24
-      ],
-      [
-        11.0,
-        24
-      ],
-      [
-        13.0,
-        22
-      ]
-    ],
-    "common_radii": [
-      [
-        2.0,
-        103
-      ],
-      [
-        3.0,
-        80
-      ],
-      [
-        1.5,
-        73
-      ],
-      [
-        9.999,
-        25
-      ],
-      [
-        1.0,
-        18
-      ],
-      [
-        12.5,
-        16
-      ],
-      [
-        10.0,
-        15
-      ],
-      [
-        6.0,
-        12
-      ],
-      [
-        1.2,
-        12
-      ],
-      [
-        1.3,
-        12
-      ],
-      [
-        1.91,
-        10
-      ],
-      [
-        8.5,
-        7
-      ],
-      [
-        5.0,
-        6
-      ],
-      [
-        5.5,
-        4
-      ],
-      [
-        2.499,
-        4
-      ],
-      [
-        6.5,
-        4
-      ],
-      [
-        1.1,
-        4
-      ],
-      [
-        0.7,
-        4
-      ],
-      [
-        7.5,
-        4
-      ],
-      [
-        1.95,
-        2
-      ]
-    ],
-    "straight_segment_angle_families": {
-      "tolerance_degrees": 1,
-      "counts": {
-        "horizontal": 208,
-        "vertical": 148,
-        "diagonal_135": 98,
-        "diagonal_45": 85
+  "construction_metrics": {
+    "recovered_geometry": {
+      "analyzed_icon_count": 207,
+      "selection": {
+        "kind": "recovered_geometry",
+        "status": "available_not_manually_curated",
+        "classification_scope": [
+          "filled_primitives",
+          "mixed",
+          "true_stroke"
+        ],
+        "excluded_classification": "expanded_outline",
+        "note": "These metrics describe the current recovery pipeline and must not be read as an independent style ground truth."
       },
-      "other": 162,
-      "family_share": 0.7689
+      "drawable_elements": {
+        "line": 266,
+        "circle": 134,
+        "path": 121,
+        "rect": 80,
+        "polyline": 37,
+        "polygon": 7,
+        "ellipse": 4
+      },
+      "semantic_segments": {
+        "line": 698,
+        "circle": 134,
+        "arc": 86,
+        "cubic": 85,
+        "rounded_rect": 80,
+        "ellipse": 4
+      },
+      "drawables_per_icon": {
+        "count": 207,
+        "min": 1,
+        "p10": 1.0,
+        "median": 2.0,
+        "mean": 3.135,
+        "p90": 6.0,
+        "max": 12
+      },
+      "segments_per_icon": {
+        "count": 207,
+        "min": 1,
+        "p10": 2.0,
+        "median": 4.0,
+        "mean": 5.251,
+        "p90": 10.4,
+        "max": 20
+      },
+      "cubics_per_icon": {
+        "count": 207,
+        "min": 0,
+        "p10": 0.0,
+        "median": 0.0,
+        "mean": 0.411,
+        "p90": 0.4,
+        "max": 11
+      },
+      "path_subpaths_per_icon": {
+        "count": 207,
+        "min": 0,
+        "p10": 0.0,
+        "median": 0.0,
+        "mean": 0.903,
+        "p90": 3.0,
+        "max": 7
+      },
+      "path_subpath_count": 187,
+      "path_start_points_recorded": 187,
+      "drawables_with_ancestor_or_local_transform": 24,
+      "drawables_with_nonuniform_transform": 0,
+      "stroke_widths_by_drawable": {
+        "2.0": 562
+      },
+      "linecaps_by_drawable": {
+        "round": 562
+      },
+      "linejoins_by_drawable": {
+        "round": 562
+      },
+      "filled_primitives": {
+        "circle": 83,
+        "path": 2,
+        "ellipse": 2
+      },
+      "on_curve_coordinate_grid_share": {
+        "integer": 0.5751,
+        "half_unit": 0.7367,
+        "quarter_unit": 0.757,
+        "tolerance": 0.02
+      },
+      "common_on_curve_coordinates": [
+        [
+          12.0,
+          326
+        ],
+        [
+          3.0,
+          292
+        ],
+        [
+          21.0,
+          285
+        ],
+        [
+          7.0,
+          71
+        ],
+        [
+          17.0,
+          64
+        ],
+        [
+          22.0,
+          57
+        ],
+        [
+          2.0,
+          52
+        ],
+        [
+          20.0,
+          49
+        ],
+        [
+          16.0,
+          49
+        ],
+        [
+          16.5,
+          48
+        ],
+        [
+          4.0,
+          47
+        ],
+        [
+          10.0,
+          46
+        ],
+        [
+          7.5,
+          45
+        ],
+        [
+          8.0,
+          45
+        ],
+        [
+          4.5,
+          40
+        ],
+        [
+          14.0,
+          38
+        ],
+        [
+          9.0,
+          38
+        ],
+        [
+          15.0,
+          37
+        ],
+        [
+          19.5,
+          37
+        ],
+        [
+          19.0,
+          31
+        ],
+        [
+          9.5,
+          30
+        ],
+        [
+          15.5,
+          30
+        ],
+        [
+          5.0,
+          27
+        ],
+        [
+          13.0,
+          26
+        ]
+      ],
+      "semantic_radius_observation_count": 308,
+      "semantic_radius_observations_by_kind": {
+        "arc": 86,
+        "circle": 134,
+        "ellipse": 8,
+        "rounded_rect": 80
+      },
+      "common_semantic_radii": [
+        [
+          1.5,
+          68
+        ],
+        [
+          2.0,
+          61
+        ],
+        [
+          3.0,
+          40
+        ],
+        [
+          9.999,
+          23
+        ],
+        [
+          10.0,
+          13
+        ],
+        [
+          1.0,
+          9
+        ],
+        [
+          12.5,
+          8
+        ],
+        [
+          6.0,
+          6
+        ],
+        [
+          1.2,
+          6
+        ],
+        [
+          1.3,
+          6
+        ],
+        [
+          8.5,
+          5
+        ],
+        [
+          1.91,
+          5
+        ],
+        [
+          5.0,
+          3
+        ],
+        [
+          5.5,
+          2
+        ],
+        [
+          1.125,
+          2
+        ],
+        [
+          2.995,
+          2
+        ],
+        [
+          2.499,
+          2
+        ],
+        [
+          2.009,
+          2
+        ],
+        [
+          6.5,
+          2
+        ],
+        [
+          1.1,
+          2
+        ]
+      ],
+      "semantic_radius_note": "Equal rx/ry axes are counted once per primitive or arc segment.",
+      "straight_segment_angle_families": {
+        "tolerance_degrees": 1,
+        "counts": {
+          "horizontal": 208,
+          "vertical": 147,
+          "diagonal_135": 93,
+          "diagonal_45": 88
+        },
+        "other": 162,
+        "family_share": 0.7679
+      }
+    },
+    "curated_reference_geometry": {
+      "analyzed_icon_count": 36,
+      "selection": {
+        "kind": "curated_reference_subset",
+        "status": "available",
+        "manifest": {
+          "path": "outputs/icon-style-curated.json",
+          "sha256": "f0d9139b7fe87d9f914f503e47b5bb888b38364eefc767633391e6c8f17c7a86"
+        },
+        "note": "Only manually approved icon names from the manifest are included."
+      },
+      "drawable_elements": {
+        "path": 20,
+        "rect": 14,
+        "circle": 12,
+        "line": 8,
+        "polyline": 4,
+        "polygon": 2
+      },
+      "semantic_segments": {
+        "line": 90,
+        "rounded_rect": 14,
+        "circle": 12,
+        "cubic": 7,
+        "arc": 2
+      },
+      "drawables_per_icon": {
+        "count": 36,
+        "min": 1,
+        "p10": 1.0,
+        "median": 1.0,
+        "mean": 1.667,
+        "p90": 3.0,
+        "max": 4
+      },
+      "segments_per_icon": {
+        "count": 36,
+        "min": 1,
+        "p10": 2.0,
+        "median": 3.0,
+        "mean": 3.472,
+        "p90": 5.0,
+        "max": 12
+      },
+      "cubics_per_icon": {
+        "count": 36,
+        "min": 0,
+        "p10": 0.0,
+        "median": 0.0,
+        "mean": 0.194,
+        "p90": 0.0,
+        "max": 4
+      },
+      "path_subpaths_per_icon": {
+        "count": 36,
+        "min": 0,
+        "p10": 0.0,
+        "median": 1.0,
+        "mean": 0.944,
+        "p90": 2.0,
+        "max": 3
+      },
+      "path_subpath_count": 34,
+      "path_start_points_recorded": 34,
+      "drawables_with_ancestor_or_local_transform": 0,
+      "drawables_with_nonuniform_transform": 0,
+      "stroke_widths_by_drawable": {
+        "2.0": 51
+      },
+      "linecaps_by_drawable": {
+        "round": 51
+      },
+      "linejoins_by_drawable": {
+        "round": 51
+      },
+      "filled_primitives": {
+        "circle": 9
+      },
+      "on_curve_coordinate_grid_share": {
+        "integer": 0.6737,
+        "half_unit": 0.9225,
+        "quarter_unit": 0.9225,
+        "tolerance": 0.02
+      },
+      "common_on_curve_coordinates": [
+        [
+          21.0,
+          79
+        ],
+        [
+          3.0,
+          76
+        ],
+        [
+          12.0,
+          71
+        ],
+        [
+          16.5,
+          16
+        ],
+        [
+          9.5,
+          15
+        ],
+        [
+          14.5,
+          14
+        ],
+        [
+          15.5,
+          12
+        ],
+        [
+          8.5,
+          12
+        ],
+        [
+          7.5,
+          11
+        ],
+        [
+          14.0,
+          10
+        ],
+        [
+          4.5,
+          9
+        ],
+        [
+          10.0,
+          8
+        ],
+        [
+          19.5,
+          6
+        ],
+        [
+          7.0,
+          6
+        ],
+        [
+          17.0,
+          6
+        ],
+        [
+          16.0,
+          5
+        ],
+        [
+          6.0,
+          4
+        ],
+        [
+          8.0,
+          4
+        ],
+        [
+          5.5,
+          4
+        ],
+        [
+          18.5,
+          4
+        ],
+        [
+          18.0,
+          3
+        ],
+        [
+          9.0,
+          3
+        ],
+        [
+          11.046,
+          3
+        ],
+        [
+          2.051,
+          3
+        ]
+      ],
+      "semantic_radius_observation_count": 28,
+      "semantic_radius_observations_by_kind": {
+        "arc": 2,
+        "circle": 12,
+        "rounded_rect": 14
+      },
+      "common_semantic_radii": [
+        [
+          3.0,
+          8
+        ],
+        [
+          2.0,
+          8
+        ],
+        [
+          1.0,
+          4
+        ],
+        [
+          10.0,
+          3
+        ],
+        [
+          1.5,
+          3
+        ],
+        [
+          1.91,
+          2
+        ]
+      ],
+      "semantic_radius_note": "Equal rx/ry axes are counted once per primitive or arc segment.",
+      "straight_segment_angle_families": {
+        "tolerance_degrees": 1,
+        "counts": {
+          "horizontal": 22,
+          "vertical": 20,
+          "diagonal_45": 18,
+          "diagonal_135": 18
+        },
+        "other": 12,
+        "family_share": 0.8667
+      }
     }
   },
   "catalog_families_nonexclusive": {
@@ -428,7 +803,7 @@
     "typography": 15,
     "files_and_folders": 23,
     "people_and_body": 18,
-    "media_controls": 24
+    "media_controls": 21
   },
   "conversion_status": {
     "classifications": {
@@ -439,5 +814,77 @@
     },
     "ready_for_variable_stroke": 207,
     "remaining_expanded_outline": 553
+  },
+  "limitations": [
+    "Alpha centroid measures rendered ink balance, not perceptual optical balance.",
+    "Recovered construction metrics remain pipeline-dependent; normative construction uses the curated reference subset.",
+    "Expanded-outline fallbacks contribute to visual metrics only and never to construction metrics."
+  ],
+  "self_checks": {
+    "passed": true,
+    "check_count": 10,
+    "checks": [
+      {
+        "name": "transform_rotate_about_point",
+        "passed": true
+      },
+      {
+        "name": "ancestor_and_local_transform_composition",
+        "passed": true
+      },
+      {
+        "name": "every_path_subpath_start_recorded",
+        "passed": true,
+        "observed": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            4.0,
+            5.0
+          ]
+        ]
+      },
+      {
+        "name": "equal_radius_axes_not_double_counted",
+        "passed": true,
+        "observed": [
+          4.0
+        ]
+      },
+      {
+        "name": "catalog_has_760_unique_icons",
+        "passed": true,
+        "observed": 760
+      },
+      {
+        "name": "visual_metrics_cover_all_icons",
+        "passed": true,
+        "observed": 760
+      },
+      {
+        "name": "construction_scope_excludes_expanded_outlines",
+        "passed": true,
+        "observed": 207
+      },
+      {
+        "name": "path_start_count_matches_subpath_count",
+        "passed": true,
+        "observed": [
+          187,
+          187
+        ]
+      },
+      {
+        "name": "real_transformed_drawables_were_measured",
+        "passed": true,
+        "observed": 24
+      },
+      {
+        "name": "provenance_hashes_present",
+        "passed": true
+      }
+    ]
   }
 }
