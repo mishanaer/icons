@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M19.793 2.793a1 1 0 1 1 1.414 1.414L13.414 12H19a1 1 0 0 1 0 2h-6v2h6a1 1 0 0 1 0 2h-6v3a1 1 0 0 1-2 0v-3H5a1 1 0 0 1 0-2h6v-2H5a1 1 0 0 1 0-2h5.586L2.793 4.207a1 1 0 1 1 1.414-1.414L12 10.586z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+  <line x1="11.997" y1="11.997" x2="3.488" y2="3.488"/>
+  <line x1="11.995" y1="17" x2="5" y2="17"/>
+  <line x1="5.001" y1="13.027" x2="11.996" y2="12.947"/>
+  <line x1="11.994" y1="11.999" x2="11.994" y2="12.732"/>
+  <line x1="20.512" y1="3.488" x2="11.998" y2="12.002"/>
+  <line x1="12" y1="21" x2="12" y2="17.006"/>
+  <line x1="12" y1="12.74" x2="12" y2="17.004"/>
+  <line x1="18.999" y1="17" x2="11.998" y2="17"/>
+  <line x1="11.998" y1="12.947" x2="18.997" y2="13.027"/>
+</svg>

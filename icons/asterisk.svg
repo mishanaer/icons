@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1a1 1 0 0 1 1 1v8.268l7.16-4.134a1 1 0 0 1 1 1.732L14 12l7.16 4.134a1 1 0 0 1-1 1.732L13 13.731V22a1 1 0 1 1-2 0v-8.269l-7.16 4.135a1 1 0 0 1-1-1.732L9.999 12l-7.16-4.134a1 1 0 0 1 1-1.732L11 10.268V2a1 1 0 0 1 1-1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+  <line x1="11.971" y1="11.979" x2="3.344" y2="7.006"/>
+  <line x1="3.347" y1="16.997" x2="11.997" y2="11.998"/>
+  <line x1="11.998" y1="2" x2="11.998" y2="11.966"/>
+  <line x1="12.001" y1="12.005" x2="12.001" y2="22"/>
+  <line x1="12" y1="1.999" x2="12.006" y2="1.768"/>
+  <line x1="20.654" y1="16.997" x2="12.02" y2="12.009"/>
+  <line x1="12.018" y1="11.996" x2="20.653" y2="7.001"/>
+</svg>
