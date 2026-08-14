@@ -189,4 +189,4 @@
 - конструктивная статистика получена по 207 stroke/mixed/filled-primitives SVG;
 - нормативные геометрические референсы дополнительно проверены вручную по фактическому SVG-коду.
 
-Полный машинный срез находится в [`style-profile.json`](./style-profile.json), а whitelist, точные шаблоны и ограничения — в [`style-references.json`](./style-references.json).
+Публичный машинный срез находится в [`style-profile.json`](./style-profile.json), а whitelist, точные шаблоны и ограничения — в [`style-references.json`](./style-references.json). Исходные силуэты, raster QA и анализатор намеренно не входят в каталог; в профиле сохранены их хеши для аудита.

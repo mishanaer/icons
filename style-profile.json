@@ -12,10 +12,16 @@
     ],
     "nominal_stroke_width": 2
   },
+  "distribution": {
+    "kind": "public_summary",
+    "private_analysis_artifacts_included": false,
+    "note": "Source inventory, exact silhouettes, raster QA and the analyzer are intentionally not distributed in this catalog repository. Their hashes are retained for auditability."
+  },
   "provenance": {
     "generated_at": "2026-08-14T11:05:55+00:00",
     "generator": {
-      "path": "work/analyze_icon_style.py",
+      "name": "analyze_icon_style.py",
+      "availability": "analysis-only, not distributed",
       "version": "2.0.0",
       "sha256": "cf53642e6eb720eca6591b8f24e1563238a01e1cbb6b15f80214232019ef68bf",
       "python": "3.9.6",
@@ -26,34 +32,33 @@
       }
     },
     "source_inventory": {
-      "path": "outputs/amicons_icons.csv",
+      "availability": "analysis-only, not distributed",
       "sha256": "404dd21ca5f5b43140dd331c4c3fbd1c7163646904e394f9bd77b384cbc3c66b",
       "icon_count": 760,
       "ordered_icon_names_sha256": "04f217a765043ea72ce81e2eac7bd23db5f0737b0da2fee1280edb3c1e1f3c5b"
     },
     "sources": {
       "exact_expanded_svg": {
-        "path": "sources/svg-exact/round/line",
+        "availability": "analysis-only, not distributed",
         "file_count": 760,
         "sha256": "2b31a602dfeefda91144c93ef791057b3bdbf3fd3becdb1bdc22b7aec3685914"
       },
       "exact_raster_render": {
-        "path": "work/exact-round-line-384",
+        "availability": "analysis-only, not distributed",
         "file_count": 760,
         "sha256": "550cb8bf423e3253c22418dd6c3c2fd502c08b4aed67ddf7b0219a6b26a23846"
       },
       "recovered_svg": {
-        "path": "icons/all-m3-final/svg",
+        "path": "icons",
         "file_count": 760,
         "sha256": "fddddb2b40cf55d824da26541f8b6e849ace74b4332f7a29e911c9738193c7c3"
       },
       "stroke_validation": {
-        "path": "outputs/stroke-validation.json",
+        "availability": "analysis-only, not distributed",
         "sha256": "750154d34da5a70d785c763ee405623a71d14dcf1ad0eb77ccbac03694c7c353"
       }
     },
     "renderer": {
-      "artifact_path": "work/exact-round-line-384",
       "render_size_px": [
         384,
         384
@@ -573,10 +578,11 @@
         "kind": "curated_reference_subset",
         "status": "available",
         "manifest": {
-          "path": "outputs/icon-style-curated.json",
-          "sha256": "f0d9139b7fe87d9f914f503e47b5bb888b38364eefc767633391e6c8f17c7a86"
+          "path": "style-references.json",
+          "selector": "normative_geometry_whitelist.icons",
+          "sha256": "7a7050c789ede722b88dc7f8d1b21117e48d0c22cae54204fbc181256c1dc8ef"
         },
-        "note": "Only manually approved icon names from the manifest are included."
+        "note": "Only manually approved icon names from the public reference file are included."
       },
       "drawable_elements": {
         "path": 20,
