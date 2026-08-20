@@ -2,7 +2,7 @@
   "schema_version": 1,
   "family": "round",
   "style": "solid",
-  "icon_count": 760,
+  "icon_count": 761,
   "icons": [
     {
       "name": "acorn",
@@ -2341,6 +2341,20 @@
       "source_sha256": "66dfe1e99487d1bb147c3ba7b4b100cec92c499c5ece910eca25685a31b11361",
       "output_sha256": "58bda7055895cdcf5d86adc4f6b25d2864a4d4d8c15672ddee4e6730e88eb8dd",
       "bytes": 1208,
+      "path_count": 1,
+      "uses_clip_path": false
+    },
+    {
+      "name": "chat-bubbles-filled-1",
+      "variant": "custom/filled",
+      "svg_path": "icons/solid/chat-bubbles-filled-1.svg",
+      "download_name": "chat-bubbles-filled-1.svg",
+      "view_box": "0 0 24 24",
+      "fill": "currentColor",
+      "source_file": "chat-bubbles-filled 1.svg",
+      "source_sha256": "f8c5e8a69edb762607f491bbb43dade8f6e2fdf15d95b631bf9119dd20e00951",
+      "output_sha256": "0968c90d897290d8c656c14bdaa97382428f303069e8629f16f0ee2ea91265a8",
+      "bytes": 2535,
       "path_count": 1,
       "uses_clip_path": false
     },
